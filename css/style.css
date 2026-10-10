@@ -223,12 +223,13 @@ input[type="range"] { accent-color: var(--pink); width: 140px; }
 .highlights li strong { display: block; font-family: var(--mono); font-size: 13px; }
 .highlights li span { color: var(--grey); font-size: 14px; }
 .menu { padding: 44px var(--gutter); }
-.menu h3 { font-family: var(--mono); font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--pink); margin: 28px 0 10px; }
+.menu h3 { font-family: var(--display); font-weight: 800; font-size: clamp(24px, 3vw, 32px); text-transform: uppercase; letter-spacing: -0.01em; color: var(--ink); margin: 40px 0 14px; }
 .menu h3:first-child { margin-top: 0; }
-.menu-row { display: flex; align-items: baseline; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+.menu-row { display: flex; align-items: baseline; gap: 10px; padding: 9px 0; }
+.menu-row span:first-child { font-size: 17px; }
 .menu-row .dots { flex: 1; }
 .menu-row small { display: block; color: var(--grey); font-size: 12px; }
-.menu-row .p { font-family: var(--mono); font-weight: 700; }
+.menu-row .p { font-weight: 700; font-size: 17px; color: var(--pink); }
 .menu-note { margin-top: 20px; font-family: var(--mono); font-size: 11px; color: var(--grey); }
 @media (max-width: 880px) { .cafe-grid { grid-template-columns: 1fr; } .cafe-side { border-right: 0; border-bottom: 1px solid var(--line); } }
 
